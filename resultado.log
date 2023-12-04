@@ -1,0 +1,355 @@
+[2023-11-11 15:17:28] [ INFO ] [OdontologoDAOH2:20] iniciando las operaciones de : guardado odontologo: emi.- Apellido: nakayama Matricula :  15454
+[2023-11-11 15:17:28] [ ERROR] [OdontologoDAOH2:35] La base de datos puede que ya esté siendo utilizada: "C:/Users/User/C21023ClinicaOdontologica.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/User/C21023ClinicaOdontologica.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+[2023-11-11 15:21:50] [ INFO ] [BD:32] datos cargados con exito
+[2023-11-11 17:07:33] [ INFO ] [BD:32] datos cargados con exito
+[2023-11-11 17:18:31] [ INFO ] [BD:32] datos cargados con exito
+[2023-11-11 17:56:16] [ INFO ] [BD:32] datos cargados con exito
+[2023-11-11 17:56:43] [ INFO ] [OdontologoDAOH2:123] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-11 17:57:19] [ INFO ] [OdontologoDAOH2:20] iniciando las operaciones de : guardado odontologo: Juan Manuel .- Apellido: nakayama Matricula :  15454
+[2023-11-11 17:57:21] [ INFO ] [OdontologoDAOH2:123] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-12 12:53:49] [ INFO ] [BD:32] datos cargados con exito
+[2023-11-12 12:57:54] [ INFO ] [PacienteDAOH2:140] iniciando las operaciones de : listado de un paciente 
+[2023-11-12 12:57:54] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 1
+[2023-11-12 12:57:54] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 2
+[2023-11-12 12:57:54] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 3
+[2023-11-12 13:05:28] [ INFO ] [BD:32] datos cargados con exito
+[2023-11-12 13:27:00] [ INFO ] [BD:32] datos cargados con exito
+[2023-11-12 13:28:16] [ INFO ] [OdontologoDAOH2:20] iniciando las operaciones de : guardado odontologo: emiliano.- Apellido: nakayama Matricula :  1235
+[2023-11-12 13:38:42] [ INFO ] [OdontologoDAOH2:123] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-12 13:40:59] [ INFO ] [OdontologoDAOH2:48] iniciando las operaciones de : buscado por ID 4
+[2023-11-12 13:41:10] [ INFO ] [OdontologoDAOH2:48] iniciando las operaciones de : buscado por ID 2
+[2023-11-12 13:44:43] [ INFO ] [BD:32] datos cargados con exito
+[2023-11-12 13:44:52] [ INFO ] [OdontologoDAOH2:48] iniciando las operaciones de : buscado por ID null
+[2023-11-12 13:44:52] [ ERROR] [OdontologoDAOH2:63] Cannot invoke "java.lang.Integer.intValue()" because "id" is null
+[2023-11-12 13:45:26] [ INFO ] [OdontologoDAOH2:48] iniciando las operaciones de : buscado por ID 4
+[2023-11-12 13:45:37] [ INFO ] [OdontologoDAOH2:48] iniciando las operaciones de : buscado por ID 4
+[2023-11-12 13:50:39] [ INFO ] [OdontologoDAOH2:48] iniciando las operaciones de : buscado por ID null
+[2023-11-12 13:50:39] [ ERROR] [OdontologoDAOH2:63] Cannot invoke "java.lang.Integer.intValue()" because "id" is null
+[2023-11-12 13:50:43] [ INFO ] [OdontologoDAOH2:48] iniciando las operaciones de : buscado por ID null
+[2023-11-12 13:50:43] [ ERROR] [OdontologoDAOH2:63] Cannot invoke "java.lang.Integer.intValue()" because "id" is null
+[2023-11-12 13:51:16] [ INFO ] [OdontologoDAOH2:48] iniciando las operaciones de : buscado por ID 2
+[2023-11-12 13:51:16] [ INFO ] [OdontologoDAOH2:98] iniciando las operaciones de : actualizar un odontologo Mario
+[2023-11-12 13:51:27] [ INFO ] [OdontologoDAOH2:123] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-12 14:03:49] [ INFO ] [BD:32] datos cargados con exito
+[2023-11-12 14:04:43] [ INFO ] [OdontologoDAOH2:48] iniciando las operaciones de : buscado por ID 2
+[2023-11-12 14:04:43] [ INFO ] [OdontologoDAOH2:76] iniciando las operaciones de : eliminando de un odontologo con ID:  2
+[2023-11-12 14:04:43] [ ERROR] [OdontologoDAOH2:85] Error de Sintaxis en sentencia SQL "DELETE [*]* FROM ODONTOLOGOS WHERE ID=?"; se esperaba "identifier"
+Syntax error in SQL statement "DELETE [*]* FROM ODONTOLOGOS WHERE ID=?"; expected "identifier"; SQL statement:
+DELETE * FROM ODONTOLOGOS WHERE ID=? [42001-214]
+[2023-11-12 14:04:59] [ INFO ] [OdontologoDAOH2:123] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-12 14:05:29] [ INFO ] [OdontologoDAOH2:123] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-12 14:05:39] [ INFO ] [OdontologoDAOH2:48] iniciando las operaciones de : buscado por ID 3
+[2023-11-12 14:05:39] [ INFO ] [OdontologoDAOH2:76] iniciando las operaciones de : eliminando de un odontologo con ID:  3
+[2023-11-12 14:05:39] [ ERROR] [OdontologoDAOH2:85] Error de Sintaxis en sentencia SQL "DELETE [*]* FROM ODONTOLOGOS WHERE ID=?"; se esperaba "identifier"
+Syntax error in SQL statement "DELETE [*]* FROM ODONTOLOGOS WHERE ID=?"; expected "identifier"; SQL statement:
+DELETE * FROM ODONTOLOGOS WHERE ID=? [42001-214]
+[2023-11-12 14:07:37] [ INFO ] [BD:32] datos cargados con exito
+[2023-11-12 14:07:45] [ INFO ] [OdontologoDAOH2:48] iniciando las operaciones de : buscado por ID 3
+[2023-11-12 14:07:45] [ INFO ] [OdontologoDAOH2:76] iniciando las operaciones de : eliminando de un odontologo con ID:  3
+[2023-11-12 14:07:55] [ INFO ] [OdontologoDAOH2:123] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-12 14:58:06] [ INFO ] [BD:32] datos cargados con exito
+[2023-11-12 14:58:14] [ INFO ] [OdontologoDAOH2:153] Iniciando las operaciones de búsqueda por valor: MPA20
+[2023-11-12 14:59:12] [ INFO ] [OdontologoDAOH2:123] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-12 14:59:16] [ INFO ] [OdontologoDAOH2:123] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-12 15:00:46] [ INFO ] [OdontologoDAOH2:48] iniciando las operaciones de : buscado por ID 1
+[2023-11-12 15:00:51] [ INFO ] [OdontologoDAOH2:48] iniciando las operaciones de : buscado por ID 2
+[2023-11-12 15:00:53] [ INFO ] [OdontologoDAOH2:48] iniciando las operaciones de : buscado por ID 3
+[2023-11-12 15:00:54] [ INFO ] [OdontologoDAOH2:48] iniciando las operaciones de : buscado por ID 2
+[2023-11-12 15:00:54] [ INFO ] [OdontologoDAOH2:48] iniciando las operaciones de : buscado por ID 1
+[2023-11-12 15:36:03] [ INFO ] [BD:32] datos cargados con exito
+[2023-11-12 15:36:15] [ INFO ] [OdontologoDAOH2:123] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-12 15:39:00] [ INFO ] [BD:32] datos cargados con exito
+[2023-11-12 15:39:09] [ INFO ] [OdontologoDAOH2:123] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-12 15:39:12] [ INFO ] [OdontologoDAOH2:48] iniciando las operaciones de : buscado por ID 1
+[2023-11-12 15:39:12] [ INFO ] [OdontologoDAOH2:76] iniciando las operaciones de : eliminando de un odontologo con ID:  1
+[2023-11-12 15:39:13] [ INFO ] [OdontologoDAOH2:48] iniciando las operaciones de : buscado por ID 2
+[2023-11-12 15:39:13] [ INFO ] [OdontologoDAOH2:76] iniciando las operaciones de : eliminando de un odontologo con ID:  2
+[2023-11-12 15:39:14] [ INFO ] [OdontologoDAOH2:48] iniciando las operaciones de : buscado por ID 3
+[2023-11-12 15:39:14] [ INFO ] [OdontologoDAOH2:76] iniciando las operaciones de : eliminando de un odontologo con ID:  3
+[2023-11-12 15:39:19] [ INFO ] [OdontologoDAOH2:123] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-12 15:39:25] [ INFO ] [OdontologoDAOH2:123] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-12 15:39:42] [ INFO ] [OdontologoDAOH2:123] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-12 15:43:49] [ INFO ] [OdontologoDAOH2:20] iniciando las operaciones de : guardado odontologo: emiliano.- Apellido: nakayama Matricula :  1235
+[2023-11-12 15:44:03] [ INFO ] [OdontologoDAOH2:123] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-12 15:44:43] [ INFO ] [OdontologoDAOH2:20] iniciando las operaciones de : guardado odontologo: Juan manuel.- Apellido: Herrero Matricula :  1234
+[2023-11-12 15:44:49] [ INFO ] [OdontologoDAOH2:123] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-12 18:01:47] [ INFO ] [OdontologoDAOH2:48] iniciando las operaciones de : buscado por ID 4
+[2023-11-12 18:01:47] [ INFO ] [OdontologoDAOH2:76] iniciando las operaciones de : eliminando de un odontologo con ID:  4
+[2023-11-12 18:01:48] [ INFO ] [OdontologoDAOH2:48] iniciando las operaciones de : buscado por ID 5
+[2023-11-12 18:01:48] [ INFO ] [OdontologoDAOH2:76] iniciando las operaciones de : eliminando de un odontologo con ID:  5
+[2023-11-12 18:02:37] [ INFO ] [BD:32] datos cargados con exito
+[2023-11-12 18:02:50] [ INFO ] [OdontologoDAOH2:123] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-12 18:02:57] [ INFO ] [OdontologoDAOH2:123] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-12 18:02:58] [ INFO ] [OdontologoDAOH2:48] iniciando las operaciones de : buscado por ID 1
+[2023-11-12 18:02:58] [ INFO ] [OdontologoDAOH2:76] iniciando las operaciones de : eliminando de un odontologo con ID:  1
+[2023-11-12 18:02:59] [ INFO ] [OdontologoDAOH2:48] iniciando las operaciones de : buscado por ID 2
+[2023-11-12 18:02:59] [ INFO ] [OdontologoDAOH2:76] iniciando las operaciones de : eliminando de un odontologo con ID:  2
+[2023-11-12 18:03:00] [ INFO ] [OdontologoDAOH2:48] iniciando las operaciones de : buscado por ID 3
+[2023-11-12 18:03:00] [ INFO ] [OdontologoDAOH2:76] iniciando las operaciones de : eliminando de un odontologo con ID:  3
+[2023-11-12 18:03:03] [ INFO ] [OdontologoDAOH2:123] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-12 18:03:07] [ INFO ] [OdontologoDAOH2:123] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-12 18:03:46] [ INFO ] [OdontologoDAOH2:123] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-12 18:04:00] [ INFO ] [BD:32] datos cargados con exito
+[2023-11-12 18:04:22] [ INFO ] [OdontologoDAOH2:123] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-12 21:27:04] [ INFO ] [BD:32] datos cargados con exito
+[2023-11-12 21:27:31] [ INFO ] [OdontologoDAOH2:123] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-12 21:35:10] [ INFO ] [BD:32] datos cargados con exito
+[2023-11-12 21:35:23] [ INFO ] [OdontologoDAOH2:123] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-12 21:35:30] [ INFO ] [OdontologoDAOH2:48] iniciando las operaciones de : buscado por ID 1
+[2023-11-12 21:35:34] [ INFO ] [OdontologoDAOH2:48] iniciando las operaciones de : buscado por ID 2
+[2023-11-12 21:35:36] [ INFO ] [OdontologoDAOH2:48] iniciando las operaciones de : buscado por ID 3
+[2023-11-12 21:35:38] [ INFO ] [OdontologoDAOH2:48] iniciando las operaciones de : buscado por ID 2
+[2023-11-12 21:35:39] [ INFO ] [OdontologoDAOH2:48] iniciando las operaciones de : buscado por ID 1
+[2023-11-12 21:35:50] [ INFO ] [OdontologoDAOH2:48] iniciando las operaciones de : buscado por ID 2
+[2023-11-12 21:35:52] [ INFO ] [OdontologoDAOH2:48] iniciando las operaciones de : buscado por ID 3
+[2023-11-12 21:35:53] [ INFO ] [OdontologoDAOH2:48] iniciando las operaciones de : buscado por ID 1
+[2023-11-12 21:36:09] [ INFO ] [OdontologoDAOH2:123] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-12 21:58:55] [ INFO ] [BD:32] datos cargados con exito
+[2023-11-12 21:59:14] [ INFO ] [OdontologoDAOH2:123] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-12 22:01:34] [ INFO ] [BD:32] datos cargados con exito
+[2023-11-12 22:02:09] [ INFO ] [OdontologoDAOH2:123] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-12 22:06:29] [ INFO ] [BD:32] datos cargados con exito
+[2023-11-13 18:51:21] [ INFO ] [OdontologoDAOH2:123] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-13 18:51:22] [ INFO ] [OdontologoDAOH2:48] iniciando las operaciones de : buscado por ID 1
+[2023-11-13 18:51:22] [ INFO ] [OdontologoDAOH2:76] iniciando las operaciones de : eliminando de un odontologo con ID:  1
+[2023-11-13 18:51:23] [ INFO ] [OdontologoDAOH2:48] iniciando las operaciones de : buscado por ID 2
+[2023-11-13 18:51:23] [ INFO ] [OdontologoDAOH2:76] iniciando las operaciones de : eliminando de un odontologo con ID:  2
+[2023-11-13 18:51:24] [ INFO ] [OdontologoDAOH2:48] iniciando las operaciones de : buscado por ID 3
+[2023-11-13 18:51:24] [ INFO ] [OdontologoDAOH2:76] iniciando las operaciones de : eliminando de un odontologo con ID:  3
+[2023-11-13 18:51:28] [ INFO ] [OdontologoDAOH2:123] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-13 19:40:19] [ INFO ] [BD:32] datos cargados con exito
+[2023-11-13 19:40:38] [ INFO ] [PacienteDAOH2:140] iniciando las operaciones de : listado de un paciente 
+[2023-11-13 19:40:38] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 1
+[2023-11-13 19:40:38] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 2
+[2023-11-13 19:40:38] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 3
+[2023-11-13 19:40:44] [ INFO ] [PacienteDAOH2:140] iniciando las operaciones de : listado de un paciente 
+[2023-11-13 19:40:44] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 1
+[2023-11-13 19:40:44] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 2
+[2023-11-13 19:40:44] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 3
+[2023-11-13 19:40:52] [ INFO ] [PacienteDAOH2:140] iniciando las operaciones de : listado de un paciente 
+[2023-11-13 19:40:52] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 1
+[2023-11-13 19:40:52] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 2
+[2023-11-13 19:40:52] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 3
+[2023-11-13 19:41:03] [ INFO ] [PacienteDAOH2:140] iniciando las operaciones de : listado de un paciente 
+[2023-11-13 19:41:03] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 1
+[2023-11-13 19:41:03] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 2
+[2023-11-13 19:41:03] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 3
+[2023-11-13 19:41:07] [ INFO ] [OdontologoDAOH2:123] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-13 19:41:15] [ INFO ] [OdontologoDAOH2:123] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-13 19:41:20] [ INFO ] [OdontologoDAOH2:123] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-13 19:58:50] [ INFO ] [BD:32] datos cargados con exito
+[2023-11-13 19:59:01] [ INFO ] [PacienteDAOH2:140] iniciando las operaciones de : listado de un paciente 
+[2023-11-13 19:59:01] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 1
+[2023-11-13 19:59:01] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 2
+[2023-11-13 19:59:01] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 3
+[2023-11-13 19:59:07] [ INFO ] [OdontologoDAOH2:123] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-13 20:06:25] [ INFO ] [BD:32] datos cargados con exito
+[2023-11-13 20:06:32] [ INFO ] [PacienteDAOH2:140] iniciando las operaciones de : listado de un paciente 
+[2023-11-13 20:06:32] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 1
+[2023-11-13 20:06:32] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 2
+[2023-11-13 20:06:32] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 3
+[2023-11-13 20:06:36] [ INFO ] [PacienteDAOH2:140] iniciando las operaciones de : listado de un paciente 
+[2023-11-13 20:06:36] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 1
+[2023-11-13 20:06:36] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 2
+[2023-11-13 20:06:36] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 3
+[2023-11-13 20:07:58] [ INFO ] [BD:32] datos cargados con exito
+[2023-11-13 20:08:20] [ INFO ] [PacienteDAOH2:140] iniciando las operaciones de : listado de un paciente 
+[2023-11-13 20:08:20] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 1
+[2023-11-13 20:08:20] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 2
+[2023-11-13 20:08:20] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 3
+[2023-11-13 20:08:24] [ INFO ] [PacienteDAOH2:140] iniciando las operaciones de : listado de un paciente 
+[2023-11-13 20:08:24] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 1
+[2023-11-13 20:08:24] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 2
+[2023-11-13 20:08:24] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 3
+[2023-11-13 20:08:24] [ INFO ] [PacienteDAOH2:140] iniciando las operaciones de : listado de un paciente 
+[2023-11-13 20:08:24] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 1
+[2023-11-13 20:08:24] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 2
+[2023-11-13 20:08:24] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 3
+[2023-11-13 20:08:25] [ INFO ] [PacienteDAOH2:140] iniciando las operaciones de : listado de un paciente 
+[2023-11-13 20:08:25] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 1
+[2023-11-13 20:08:25] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 2
+[2023-11-13 20:08:25] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 3
+[2023-11-13 20:08:25] [ INFO ] [PacienteDAOH2:140] iniciando las operaciones de : listado de un paciente 
+[2023-11-13 20:08:25] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 1
+[2023-11-13 20:08:25] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 2
+[2023-11-13 20:08:25] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 3
+[2023-11-13 20:09:41] [ INFO ] [BD:32] datos cargados con exito
+[2023-11-13 20:09:52] [ INFO ] [PacienteDAOH2:140] iniciando las operaciones de : listado de un paciente 
+[2023-11-13 20:09:52] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 1
+[2023-11-13 20:09:52] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 2
+[2023-11-13 20:09:52] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 3
+[2023-11-13 20:10:26] [ INFO ] [OdontologoDAOH2:123] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-13 20:10:36] [ INFO ] [PacienteDAOH2:140] iniciando las operaciones de : listado de un paciente 
+[2023-11-13 20:10:37] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 1
+[2023-11-13 20:10:37] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 2
+[2023-11-13 20:10:37] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 3
+[2023-11-13 20:52:24] [ INFO ] [BD:32] datos cargados con exito
+[2023-11-13 20:52:36] [ INFO ] [PacienteDAOH2:140] iniciando las operaciones de : listado de un paciente 
+[2023-11-13 20:52:36] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 1
+[2023-11-13 20:52:36] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 2
+[2023-11-13 20:52:36] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 3
+[2023-11-13 20:52:41] [ INFO ] [OdontologoDAOH2:123] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-13 20:52:58] [ INFO ] [OdontologoDAOH2:123] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-13 20:53:10] [ INFO ] [PacienteDAOH2:140] iniciando las operaciones de : listado de un paciente 
+[2023-11-13 20:53:10] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 1
+[2023-11-13 20:53:10] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 2
+[2023-11-13 20:53:10] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 3
+[2023-11-13 20:53:19] [ INFO ] [OdontologoDAOH2:123] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-13 20:54:41] [ INFO ] [BD:32] datos cargados con exito
+[2023-11-13 20:54:47] [ INFO ] [PacienteDAOH2:140] iniciando las operaciones de : listado de un paciente 
+[2023-11-13 20:54:47] [ INFO ] [OdontologoDAOH2:123] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-13 20:54:48] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 1
+[2023-11-13 20:54:48] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 2
+[2023-11-13 20:54:48] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 3
+[2023-11-13 20:54:48] [ INFO ] [OdontologoDAOH2:123] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-13 20:54:48] [ INFO ] [PacienteDAOH2:140] iniciando las operaciones de : listado de un paciente 
+[2023-11-13 20:54:48] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 1
+[2023-11-13 20:54:48] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 2
+[2023-11-13 20:54:48] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 3
+[2023-11-13 20:54:48] [ INFO ] [OdontologoDAOH2:123] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-13 20:54:48] [ INFO ] [PacienteDAOH2:140] iniciando las operaciones de : listado de un paciente 
+[2023-11-13 20:54:48] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 1
+[2023-11-13 20:54:48] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 2
+[2023-11-13 20:54:48] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 3
+[2023-11-13 20:54:49] [ INFO ] [PacienteDAOH2:140] iniciando las operaciones de : listado de un paciente 
+[2023-11-13 20:54:49] [ INFO ] [OdontologoDAOH2:123] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-13 20:54:49] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 1
+[2023-11-13 20:54:49] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 2
+[2023-11-13 20:54:49] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 3
+[2023-11-13 20:54:55] [ INFO ] [PacienteDAOH2:140] iniciando las operaciones de : listado de un paciente 
+[2023-11-13 20:54:55] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 1
+[2023-11-13 20:54:55] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 2
+[2023-11-13 20:54:55] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 3
+[2023-11-13 20:54:58] [ INFO ] [PacienteDAOH2:140] iniciando las operaciones de : listado de un paciente 
+[2023-11-13 20:54:58] [ INFO ] [OdontologoDAOH2:123] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-13 20:54:58] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 1
+[2023-11-13 20:54:58] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 2
+[2023-11-13 20:54:58] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 3
+[2023-11-13 20:55:02] [ INFO ] [PacienteDAOH2:140] iniciando las operaciones de : listado de un paciente 
+[2023-11-13 20:55:02] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 1
+[2023-11-13 20:55:02] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 2
+[2023-11-13 20:55:02] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 3
+[2023-11-14 18:38:38] [ INFO ] [BD:32] datos cargados con exito
+[2023-11-14 18:39:10] [ INFO ] [PacienteDAOH2:140] iniciando las operaciones de : listado de un paciente 
+[2023-11-14 18:39:10] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 1
+[2023-11-14 18:39:10] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 2
+[2023-11-14 18:39:10] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 3
+[2023-11-14 18:40:22] [ INFO ] [BD:32] datos cargados con exito
+[2023-11-14 18:41:03] [ INFO ] [PacienteDAOH2:140] iniciando las operaciones de : listado de un paciente 
+[2023-11-14 18:41:03] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 1
+[2023-11-14 18:41:03] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 2
+[2023-11-14 18:41:03] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 3
+[2023-11-14 18:41:13] [ INFO ] [PacienteDAOH2:140] iniciando las operaciones de : listado de un paciente 
+[2023-11-14 18:41:13] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 1
+[2023-11-14 18:41:13] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 2
+[2023-11-14 18:41:13] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 3
+[2023-11-14 18:41:17] [ INFO ] [PacienteDAOH2:56] iniciando las operaciones de : buscado por id 1
+[2023-11-14 18:41:17] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 1
+[2023-11-14 18:41:17] [ INFO ] [PacienteDAOH2:86] iniciando las operaciones de : eliminado paciente con ID:  1
+[2023-11-14 18:41:17] [ ERROR] [PacienteDAOH2:95] Error de Sintaxis en sentencia SQL "DELETE [*]* FROM PACIENTES WHERE ID=?"; se esperaba "identifier"
+Syntax error in SQL statement "DELETE [*]* FROM PACIENTES WHERE ID=?"; expected "identifier"; SQL statement:
+DELETE * FROM PACIENTES WHERE ID=? [42001-214]
+[2023-11-14 18:41:18] [ INFO ] [PacienteDAOH2:56] iniciando las operaciones de : buscado por id 2
+[2023-11-14 18:41:18] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 2
+[2023-11-14 18:41:18] [ INFO ] [PacienteDAOH2:86] iniciando las operaciones de : eliminado paciente con ID:  2
+[2023-11-14 18:41:18] [ ERROR] [PacienteDAOH2:95] Error de Sintaxis en sentencia SQL "DELETE [*]* FROM PACIENTES WHERE ID=?"; se esperaba "identifier"
+Syntax error in SQL statement "DELETE [*]* FROM PACIENTES WHERE ID=?"; expected "identifier"; SQL statement:
+DELETE * FROM PACIENTES WHERE ID=? [42001-214]
+[2023-11-14 18:41:19] [ INFO ] [PacienteDAOH2:56] iniciando las operaciones de : buscado por id 3
+[2023-11-14 18:41:19] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 3
+[2023-11-14 18:41:19] [ INFO ] [PacienteDAOH2:86] iniciando las operaciones de : eliminado paciente con ID:  3
+[2023-11-14 18:41:19] [ ERROR] [PacienteDAOH2:95] Error de Sintaxis en sentencia SQL "DELETE [*]* FROM PACIENTES WHERE ID=?"; se esperaba "identifier"
+Syntax error in SQL statement "DELETE [*]* FROM PACIENTES WHERE ID=?"; expected "identifier"; SQL statement:
+DELETE * FROM PACIENTES WHERE ID=? [42001-214]
+[2023-11-14 18:41:33] [ INFO ] [PacienteDAOH2:140] iniciando las operaciones de : listado de un paciente 
+[2023-11-14 18:41:33] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 1
+[2023-11-14 18:41:33] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 2
+[2023-11-14 18:41:33] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 3
+[2023-11-14 18:41:36] [ INFO ] [PacienteDAOH2:56] iniciando las operaciones de : buscado por id 1
+[2023-11-14 18:41:36] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 1
+[2023-11-14 18:41:36] [ INFO ] [PacienteDAOH2:86] iniciando las operaciones de : eliminado paciente con ID:  1
+[2023-11-14 18:41:36] [ ERROR] [PacienteDAOH2:95] Error de Sintaxis en sentencia SQL "DELETE [*]* FROM PACIENTES WHERE ID=?"; se esperaba "identifier"
+Syntax error in SQL statement "DELETE [*]* FROM PACIENTES WHERE ID=?"; expected "identifier"; SQL statement:
+DELETE * FROM PACIENTES WHERE ID=? [42001-214]
+[2023-11-14 18:41:37] [ INFO ] [PacienteDAOH2:56] iniciando las operaciones de : buscado por id 2
+[2023-11-14 18:41:37] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 2
+[2023-11-14 18:41:37] [ INFO ] [PacienteDAOH2:86] iniciando las operaciones de : eliminado paciente con ID:  2
+[2023-11-14 18:41:37] [ ERROR] [PacienteDAOH2:95] Error de Sintaxis en sentencia SQL "DELETE [*]* FROM PACIENTES WHERE ID=?"; se esperaba "identifier"
+Syntax error in SQL statement "DELETE [*]* FROM PACIENTES WHERE ID=?"; expected "identifier"; SQL statement:
+DELETE * FROM PACIENTES WHERE ID=? [42001-214]
+[2023-11-14 18:41:37] [ INFO ] [PacienteDAOH2:56] iniciando las operaciones de : buscado por id 3
+[2023-11-14 18:41:37] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 3
+[2023-11-14 18:41:37] [ INFO ] [PacienteDAOH2:86] iniciando las operaciones de : eliminado paciente con ID:  3
+[2023-11-14 18:41:37] [ ERROR] [PacienteDAOH2:95] Error de Sintaxis en sentencia SQL "DELETE [*]* FROM PACIENTES WHERE ID=?"; se esperaba "identifier"
+Syntax error in SQL statement "DELETE [*]* FROM PACIENTES WHERE ID=?"; expected "identifier"; SQL statement:
+DELETE * FROM PACIENTES WHERE ID=? [42001-214]
+[2023-11-14 18:41:40] [ INFO ] [PacienteDAOH2:140] iniciando las operaciones de : listado de un paciente 
+[2023-11-14 18:41:40] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 1
+[2023-11-14 18:41:40] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 2
+[2023-11-14 18:41:40] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 3
+[2023-11-14 19:06:53] [ INFO ] [PacienteDAOH2:140] iniciando las operaciones de : listado de un paciente 
+[2023-11-14 19:06:53] [ INFO ] [OdontologoDAOH2:123] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-14 19:06:53] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 1
+[2023-11-14 19:06:53] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 2
+[2023-11-14 19:06:53] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 3
+[2023-11-14 19:06:57] [ INFO ] [PacienteDAOH2:140] iniciando las operaciones de : listado de un paciente 
+[2023-11-14 19:06:57] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 1
+[2023-11-14 19:06:57] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 2
+[2023-11-14 19:06:57] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 3
+[2023-11-14 19:07:08] [ INFO ] [PacienteDAOH2:140] iniciando las operaciones de : listado de un paciente 
+[2023-11-14 19:07:08] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 1
+[2023-11-14 19:07:08] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 2
+[2023-11-14 19:07:08] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 3
+[2023-11-14 19:07:14] [ INFO ] [PacienteDAOH2:56] iniciando las operaciones de : buscado por id 1
+[2023-11-14 19:07:14] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 1
+[2023-11-14 19:07:14] [ INFO ] [PacienteDAOH2:86] iniciando las operaciones de : eliminado paciente con ID:  1
+[2023-11-14 19:07:14] [ ERROR] [PacienteDAOH2:95] Error de Sintaxis en sentencia SQL "DELETE [*]* FROM PACIENTES WHERE ID=?"; se esperaba "identifier"
+Syntax error in SQL statement "DELETE [*]* FROM PACIENTES WHERE ID=?"; expected "identifier"; SQL statement:
+DELETE * FROM PACIENTES WHERE ID=? [42001-214]
+[2023-11-14 19:07:15] [ INFO ] [PacienteDAOH2:56] iniciando las operaciones de : buscado por id 2
+[2023-11-14 19:07:15] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 2
+[2023-11-14 19:07:15] [ INFO ] [PacienteDAOH2:86] iniciando las operaciones de : eliminado paciente con ID:  2
+[2023-11-14 19:07:15] [ ERROR] [PacienteDAOH2:95] Error de Sintaxis en sentencia SQL "DELETE [*]* FROM PACIENTES WHERE ID=?"; se esperaba "identifier"
+Syntax error in SQL statement "DELETE [*]* FROM PACIENTES WHERE ID=?"; expected "identifier"; SQL statement:
+DELETE * FROM PACIENTES WHERE ID=? [42001-214]
+[2023-11-14 19:07:15] [ INFO ] [PacienteDAOH2:56] iniciando las operaciones de : buscado por id 3
+[2023-11-14 19:07:15] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 3
+[2023-11-14 19:07:15] [ INFO ] [PacienteDAOH2:86] iniciando las operaciones de : eliminado paciente con ID:  3
+[2023-11-14 19:07:15] [ ERROR] [PacienteDAOH2:95] Error de Sintaxis en sentencia SQL "DELETE [*]* FROM PACIENTES WHERE ID=?"; se esperaba "identifier"
+Syntax error in SQL statement "DELETE [*]* FROM PACIENTES WHERE ID=?"; expected "identifier"; SQL statement:
+DELETE * FROM PACIENTES WHERE ID=? [42001-214]
+[2023-11-14 19:07:17] [ INFO ] [PacienteDAOH2:140] iniciando las operaciones de : listado de un paciente 
+[2023-11-14 19:07:17] [ INFO ] [OdontologoDAOH2:123] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-14 19:07:17] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 1
+[2023-11-14 19:07:17] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 2
+[2023-11-14 19:07:17] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 3
+[2023-11-14 19:07:19] [ INFO ] [OdontologoDAOH2:48] iniciando las operaciones de : buscado por ID 1
+[2023-11-14 19:07:19] [ INFO ] [OdontologoDAOH2:76] iniciando las operaciones de : eliminando de un odontologo con ID:  1
+[2023-11-14 19:07:20] [ INFO ] [OdontologoDAOH2:48] iniciando las operaciones de : buscado por ID 2
+[2023-11-14 19:07:20] [ INFO ] [OdontologoDAOH2:76] iniciando las operaciones de : eliminando de un odontologo con ID:  2
+[2023-11-14 19:07:20] [ INFO ] [OdontologoDAOH2:48] iniciando las operaciones de : buscado por ID 3
+[2023-11-14 19:07:20] [ INFO ] [OdontologoDAOH2:76] iniciando las operaciones de : eliminando de un odontologo con ID:  3
+[2023-11-14 19:07:34] [ INFO ] [PacienteDAOH2:140] iniciando las operaciones de : listado de un paciente 
+[2023-11-14 19:07:34] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 1
+[2023-11-14 19:07:34] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 2
+[2023-11-14 19:07:34] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 3
+[2023-11-14 20:14:37] [ INFO ] [PacienteDAOH2:56] iniciando las operaciones de : buscado por id 1
+[2023-11-14 20:14:37] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 1
+[2023-11-14 20:14:37] [ INFO ] [PacienteDAOH2:86] iniciando las operaciones de : eliminado paciente con ID:  1
+[2023-11-14 20:14:37] [ ERROR] [PacienteDAOH2:95] Error de Sintaxis en sentencia SQL "DELETE [*]* FROM PACIENTES WHERE ID=?"; se esperaba "identifier"
+Syntax error in SQL statement "DELETE [*]* FROM PACIENTES WHERE ID=?"; expected "identifier"; SQL statement:
+DELETE * FROM PACIENTES WHERE ID=? [42001-214]
+[2023-11-14 20:14:38] [ INFO ] [PacienteDAOH2:56] iniciando las operaciones de : buscado por id 2
+[2023-11-14 20:14:38] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 2
+[2023-11-14 20:14:38] [ INFO ] [PacienteDAOH2:86] iniciando las operaciones de : eliminado paciente con ID:  2
+[2023-11-14 20:14:38] [ ERROR] [PacienteDAOH2:95] Error de Sintaxis en sentencia SQL "DELETE [*]* FROM PACIENTES WHERE ID=?"; se esperaba "identifier"
+Syntax error in SQL statement "DELETE [*]* FROM PACIENTES WHERE ID=?"; expected "identifier"; SQL statement:
+DELETE * FROM PACIENTES WHERE ID=? [42001-214]
+[2023-11-14 20:14:38] [ INFO ] [PacienteDAOH2:56] iniciando las operaciones de : buscado por id 3
+[2023-11-14 20:14:38] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 3
+[2023-11-14 20:14:38] [ INFO ] [PacienteDAOH2:86] iniciando las operaciones de : eliminado paciente con ID:  3
+[2023-11-14 20:14:38] [ ERROR] [PacienteDAOH2:95] Error de Sintaxis en sentencia SQL "DELETE [*]* FROM PACIENTES WHERE ID=?"; se esperaba "identifier"
+Syntax error in SQL statement "DELETE [*]* FROM PACIENTES WHERE ID=?"; expected "identifier"; SQL statement:
+DELETE * FROM PACIENTES WHERE ID=? [42001-214]
+[2023-11-22 19:52:17] [ INFO ] [BD:32] datos cargados con exito

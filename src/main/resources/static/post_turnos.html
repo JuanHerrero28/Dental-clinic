@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <style>
+     body {
+      background-image: url('images/Inicio.png');
+      background-size: cover; /* Ajusta el tamaño de la imagen al contenedor */
+      background-repeat: no-repeat; /* Evita que la imagen se repita */
+      background-attachment: fixed; /* Fija la imagen en la ventana del navegador */
+      margin: 0; /* Elimina el margen predeterminado del body */
+      padding: 0; /* Elimina el padding predeterminado del body */
+    }
+    .content-container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start; /* Alinea los elementos al inicio */
+      min-height: 100vh; /* Usar min-height para evitar el scroll */
+      padding: 20px; /* Agrega un padding para separar del borde */
+    }
+    .form-container {
+      background-color: #f0f0f0;
+      padding: 20px;
+      border-radius: 3px;
+      width: 100%; /* Ajusta el ancho del formulario */
+      max-width: 600px; /* Establece un ancho máximo */
+    }
+  </style>
+</head>
+<body>
+<nav nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgba(195, 218, 254, 0.7);">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="./index.html">Home</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Paciente
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="./post_pacientes.html">Alta</a></li>
+            <li><a class="dropdown-item" href="get_pacientes.html">Listar</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Odontologo
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="post_odontologos.html">Alta</a></li>
+            <li><a class="dropdown-item" href="./get_odontologos.html">Listar</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Turnos
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="./post_turnos.html">Alta</a></li>
+            <li><a class="dropdown-item" href="./get_turnos.html">Listar</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="content-container">
+  <div class="form-container col-sm-7" style="background-color:rgba(195, 218, 254, 0.7); border-radius:3px">
+    <h3>Agregar Turno</h3>
+    <form id="add_new_turno">
+      <div class="form-group">
+        <label class="control-label" for="fechaTurno">fecha:</label>
+        <input type="date" class="form-control" id="fechaTurno"
+               placeholder="Ingrese la fecha"
+               name="fechaTurno" required>
+      </div>
+      <div class="form-group">
+        <label >Id Paciente:</label>
+        <input type="text" class="form-control" id="paciente_id">
+      </div>
+      <div class="form-group">
+        <label >Id Odontologo:</label>
+        <input type="text" class="form-control" id="odontologo_id">
+      </div>
+      <div style="margin-top: 20px;">
+        <button type="submit" class="btn btn-primary" id="btn-add-new-guardar">Guardar</button>
+      </div>
+
+    </form>
+    <div id="response" style="display:none; margin-top:10px"></div>
+  </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script type="text/javascript" src="./js/post_turno.js"></script>
+</body>
+</html>
